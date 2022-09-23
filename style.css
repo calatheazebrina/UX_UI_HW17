@@ -11,11 +11,23 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
+#logoName{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
 a{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     padding: 16px;
 }
+#logo{
+    max-height: 96px;
+    max-width: 160px;
+    padding-right: 16px;
+}
+
 /*Body formatting*/
 .body1{
     font-family: 'Nunito', sans-serif;
@@ -25,9 +37,38 @@ section{
     padding-right: 120px;
     padding-left: 120px;
 }
+.hero{
+    height: 408px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 
+    "heroText imageBox";
+    /*background-image: url(/images/desktop_hero_background.png)*/
+}
+#heroText{
+    grid-area: heroText;
+    padding-bottom: 24px;
+}
+#imageBox{
+    grid-area: imageBox;
+    padding-right: 120px;
+    background-color: #FFE599;
+}
+#selfie{
+    max-height: 297px;  
+    justify-content: center;
+    align-items: center;  
+ }
 button{
     font-family: 'Nunito', sans-serif;
     font-size: 32px;
+    background-color: #FFE599;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+}
+.body{
+    padding-bottom: 24px;
 }
 /*Footer formatting*/
 footer{
