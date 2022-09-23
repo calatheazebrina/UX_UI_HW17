@@ -1,0 +1,53 @@
+/*Header formatting*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+}
+/*Body formatting*/
+.body1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+section{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+button{
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+}
+/*Footer formatting*/
+footer{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+.footerText{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.socialIconsBar{
+    display: flex;
+    justify-content: center;
+}
+.socialIcon{
+    display: flex;
+    padding: 8px;
+    height: 44px;
+    width: 44px
+}
