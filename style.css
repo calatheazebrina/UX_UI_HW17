@@ -6,16 +6,21 @@ header{
     align-items: baseline;
     padding-right: 120px;
     padding-left: 120px;
+    padding-bottom: 56px;
 }
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
+    font-weight: 400;
 }
 #logoName{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
+}
+#name{
+    font-weight: 600;
 }
 a{
     font-family: 'Poppins', sans-serif;
@@ -37,28 +42,41 @@ section{
     padding-right: 120px;
     padding-left: 120px;
 }
+em{
+    font-style: italic;
+}
 .hero{
     height: 408px;
     display: grid;
-    grid-template-columns: 75% 25%;
+    padding-bottom: 56px;
+    grid-template-columns: 70% 30%;
     grid-template-areas: 
     "heroText imageBox";
-    /*background-image: url(/images/desktop_hero_background.png)*/
+    position: relative;
+    background-image: url(/images/desktop_hero_background.png);
+    background-size: cover;
 }
 #heroText{
     grid-area: heroText;
+    padding-left: 105px;
     padding-bottom: 24px;
 }
 #imageBox{
     grid-area: imageBox;
     padding-right: 120px;
-    background-color: #FFE599;
+    /* background-color: #FFE599; */
 }
 #selfie{
-    max-height: 297px;  
-    justify-content: center;
-    align-items: center;  
+    max-height: 350px;
+    position: absolute;
+    left: 80%;
+    bottom: 18%;
  }
+#workButton{
+    position: absolute;
+    bottom: 20%;
+   
+}
 button{
     font-family: 'Nunito', sans-serif;
     font-size: 32px;
@@ -70,11 +88,21 @@ button{
 .body{
     padding-bottom: 24px;
 }
+hr{
+    height: 8px;
+    background-color: #6D9EEB;
+    border: none;
+}
+.breakLine{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
 /*Footer formatting*/
 footer{
     padding-right: 120px;
     padding-left: 120px;
 }
+
 .footerText{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
