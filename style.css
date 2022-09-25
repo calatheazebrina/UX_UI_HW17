@@ -53,7 +53,7 @@ em{
     grid-template-areas: 
     "heroText imageBox";
     position: relative;
-    background-image: url(/images/desktop_hero_background.png);
+    background-image: url(images/desktop_hero_background.png);
     background-size: cover;
 }
 #heroText{
