@@ -29,6 +29,7 @@ a{
     padding: 16px;
     z-index: 1;
     position: relative;
+    text-decoration: none;
 }
 #logo{
     max-height: 96px;
